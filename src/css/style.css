@@ -34,11 +34,18 @@ body {
     justify-content: flex-end;
     overflow-y: hidden;
     font-size: 30px;
-    height: 20px;
-    width: 98%;
-    color: #FFFFFF;
-    height: 100px;
+    width: 93%;
+    background-color: rgb(204, 204, 204);
+    height: 40px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    
   
+}
+
+p{ 
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -48,6 +55,7 @@ body {
     color: #FFFFFF;
     margin: 1px;
     transition: .5s;
+    border-radius: 5px;
 }
 
 .btn:hover {
@@ -78,7 +86,6 @@ body {
                          ". . . igual"
                          " zero zero . igual";
 }
-
 
 @media (max-width: 400px){
 
